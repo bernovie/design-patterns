@@ -1,6 +1,6 @@
-package decorator.coffee
+package com.example.decorator.coffee
 
-import decorator.Beverage
+import com.example.decorator.Beverage
 
 class Decaf: Beverage {
     override val description: String = "Decaf Coffee"

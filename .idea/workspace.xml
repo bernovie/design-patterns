@@ -4,12 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="712cf5a2-91db-4a92-81d7-1908159fd2b7" name="Changes" comment="Adds Decorator example that uses Java's `InputStream` and `FilterInputStream`">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/decorator/io/LowerCaseInputStream.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/LowerCaseInputStreamTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="712cf5a2-91db-4a92-81d7-1908159fd2b7" name="Changes" comment="Adds code examples for the **Factory Method** and the **Abstract Factory** design patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ChicagoPizzaStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/NYPizzaStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/PizzaStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/Cut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/PizzaActionsFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/impl/ChicagoPizzaActionsFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/impl/DiagonalCut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/impl/NYPizzaActionsFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/actions/impl/SquareCut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Cheese.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Clams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Dough.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Pepperoni.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/PizzaIngredientFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Sauce.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/Veggies.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/BlackOlive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/ChicagoPizzaIngredientFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/FreshClams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/FrozenClams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/Garlic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/MarinaraSauce.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/MozarellaCheese.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/NYPizzaIngredientFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/Onion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/PlumTomatoSauce.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/ReggianoCheese.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/SlicedPepperoni.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/Spinach.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/ThickCrustDough.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/ingredients/impl/ThinCrustDough.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/pizza/Pizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/pizza/impl/CheesePizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/pizza/impl/ClamPizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/pizza/impl/PepperoniPizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/factory/pizza/impl/VeggiePizza.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/Beverage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/Beverage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/StarbuzzCoffee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/StarbuzzCoffee.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/coffee/DarkRoast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/coffee/DarkRoast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/coffee/Decaf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/coffee/Decaf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/coffee/Espresso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/coffee/Espresso.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/coffee/HouseBlend.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/coffee/HouseBlend.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/condiments/CondimentDecorator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/condiments/CondimentDecorator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/condiments/Mocha.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/condiments/Mocha.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/condiments/Soy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/condiments/Soy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/condiments/Whip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/condiments/Whip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decorator/io/LowerCaseInputStream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/decorator/io/LowerCaseInputStream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/LowerCaseInputStreamTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LowerCaseInputStreamTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +66,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -29,11 +76,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,18 +100,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/bernovi/IdeaProjects/DesignPatterns/src/main/kotlin/decorator/io",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bernovi/IdeaProjects/DesignPatterns/src/main/kotlin/decorator/io&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/decorator/io" />
@@ -76,13 +123,18 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/decorator/io" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.example.factory.ingredients.impl" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.factory.pizza" />
+      <recent name="com.example.factory.ingredients" />
       <recent name="decorator.condiments" />
       <recent name="decorator.coffee" />
       <recent name="decorators" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LowerCaseInputStreamTestKt">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="LowerCaseInputStreamKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="decorator.io.LowerCaseInputStreamKt" />
       <module name="DesignPatterns" />
@@ -99,6 +151,13 @@
     </configuration>
     <configuration name="LowerCaseInputStreamTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LowerCaseInputStreamTestKt" />
+      <module name="DesignPatterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.factory.MainKt" />
       <module name="DesignPatterns" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,6 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.LowerCaseInputStreamTestKt" />
         <item itemvalue="Kotlin.LowerCaseInputStreamTestKt (1)" />
         <item itemvalue="Kotlin.LowerCaseInputStreamKt" />
@@ -165,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds code examples for the Decorator Pattern" />
     <MESSAGE value="Adds Decorator example that uses Java's `InputStream` and `FilterInputStream`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Decorator example that uses Java's `InputStream` and `FilterInputStream`" />
+    <MESSAGE value="Adds code examples for the **Factory Method** and the **Abstract Factory** design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds code examples for the **Factory Method** and the **Abstract Factory** design patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

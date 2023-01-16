@@ -1,11 +1,11 @@
-package decorator
+package com.example.decorator
 
-import decorator.coffee.DarkRoast
-import decorator.coffee.Espresso
-import decorator.coffee.HouseBlend
-import decorator.condiments.Mocha
-import decorator.condiments.Soy
-import decorator.condiments.Whip
+import com.example.decorator.coffee.DarkRoast
+import com.example.decorator.coffee.Espresso
+import com.example.decorator.coffee.HouseBlend
+import com.example.decorator.condiments.Mocha
+import com.example.decorator.condiments.Soy
+import com.example.decorator.condiments.Whip
 
 fun main() {
     val beverage: Beverage = Espresso()

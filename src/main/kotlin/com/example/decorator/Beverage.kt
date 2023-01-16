@@ -1,4 +1,4 @@
-package decorator
+package com.example.decorator
 
 abstract class Beverage {
     open val description: String = "Unknown Beverage"

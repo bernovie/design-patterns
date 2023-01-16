@@ -1,8 +1,8 @@
-package decorator.coffee
+package com.example.decorator.coffee
 
-import decorator.Beverage
+import com.example.decorator.Beverage
 
-class HouseBlend: Beverage{
+class HouseBlend: Beverage {
     override val description: String = "HouseBlend Coffee"
 
     constructor(): super()

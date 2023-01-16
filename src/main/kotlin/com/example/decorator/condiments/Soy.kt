@@ -1,6 +1,6 @@
-package decorator.condiments
+package com.example.decorator.condiments
 
-import decorator.Beverage
+import com.example.decorator.Beverage
 
 class Soy(override val beverage: Beverage) : CondimentDecorator() {
     override val description: String

@@ -1,4 +1,4 @@
-package decorator.io
+package com.example.decorator.io
 
 import java.io.FilterInputStream
 import java.io.InputStream

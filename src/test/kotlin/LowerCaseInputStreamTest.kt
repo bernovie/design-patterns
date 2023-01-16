@@ -1,4 +1,4 @@
-import decorator.io.LowerCaseInputStream
+import com.example.decorator.io.LowerCaseInputStream
 import java.io.*
 
 fun main() {
