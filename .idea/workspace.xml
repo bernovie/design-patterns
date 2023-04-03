@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712cf5a2-91db-4a92-81d7-1908159fd2b7" name="Changes" comment="Adds an MVC example for a beat interface">
-      <change afterPath="$PROJECT_DIR$/clap.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/controller/api/BeatControllerInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/controller/impl/BeatControllerImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/api/BPMObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/api/BeatModelInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/api/BeatObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/api/impl/BeatModelImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/view/impl/BeatBar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/view/impl/DJView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/api/impl/BeatModelImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/mvc/model/impl/BeatModelImpl.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673861779818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adds an MVC example for a beat interface">
+      <created>1680483225417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680483225417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

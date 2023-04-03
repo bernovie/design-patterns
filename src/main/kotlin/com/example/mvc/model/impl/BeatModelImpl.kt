@@ -1,4 +1,4 @@
-package com.example.mvc.model.api.impl
+package com.example.mvc.model.impl
 
 import com.example.mvc.model.api.BPMObserver
 import com.example.mvc.model.api.BeatModelInterface
